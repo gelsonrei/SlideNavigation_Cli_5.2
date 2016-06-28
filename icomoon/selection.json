@@ -1,0 +1,118 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M0 0h256v256h-256zM384 64h640v128h-640zM0 384h256v256h-256zM384 448h640v128h-640zM0 768h256v256h-256zM384 832h640v128h-640z"
+				],
+				"tags": [
+					"list",
+					"bullet",
+					"ul",
+					"todo",
+					"menu"
+				],
+				"grid": 16
+			},
+			"properties": {
+				"id": 180,
+				"order": 3,
+				"prevSize": 32,
+				"code": 58880,
+				"name": "list"
+			},
+			"setIdx": 0,
+			"iconIdx": 180
+		},
+		{
+			"icon": {
+				"paths": [
+					"M384 64h640v128h-640v-128zM384 448h640v128h-640v-128zM384 832h640v128h-640v-128zM0 128c0-70.692 57.308-128 128-128 70.692 0 128 57.308 128 128 0 70.692-57.308 128-128 128-70.692 0-128-57.308-128-128zM0 512c0-70.692 57.308-128 128-128 70.692 0 128 57.308 128 128 0 70.692-57.308 128-128 128-70.692 0-128-57.308-128-128zM0 896c0-70.692 57.308-128 128-128 70.692 0 128 57.308 128 128 0 70.692-57.308 128-128 128-70.692 0-128-57.308-128-128z"
+				],
+				"tags": [
+					"list",
+					"bullet",
+					"ul",
+					"todo",
+					"menu"
+				],
+				"grid": 16
+			},
+			"properties": {
+				"id": 181,
+				"order": 2,
+				"prevSize": 32,
+				"code": 58881,
+				"name": "list2"
+			},
+			"setIdx": 0,
+			"iconIdx": 181
+		},
+		{
+			"icon": {
+				"paths": [
+					"M64 192h896v192h-896zM64 448h896v192h-896zM64 704h896v192h-896z"
+				],
+				"tags": [
+					"menu",
+					"list",
+					"items",
+					"lines",
+					"options"
+				],
+				"grid": 16
+			},
+			"properties": {
+				"id": 184,
+				"order": 1,
+				"prevSize": 32,
+				"code": 58882,
+				"name": "menu"
+			},
+			"setIdx": 0,
+			"iconIdx": 184
+		}
+	],
+	"height": 1024,
+	"metadata": {
+		"name": "icomoon"
+	},
+	"preferences": {
+		"fontPref": {
+			"prefix": "icon-",
+			"metadata": {
+				"fontFamily": "icomoon"
+			},
+			"showGlyphs": true,
+			"metrics": {
+				"emSize": 1024,
+				"baseline": 6.25,
+				"whitespace": 50
+			},
+			"resetPoint": 58880,
+			"showQuickUse": true,
+			"quickUsageToken": false,
+			"showMetrics": true,
+			"showMetadata": false
+		},
+		"imagePref": {
+			"color": 0,
+			"height": 32,
+			"columns": 16,
+			"margin": 16,
+			"png": false,
+			"sprites": true
+		},
+		"historySize": 100,
+		"showCodes": true,
+		"gridSize": 16,
+		"showLiga": false,
+		"showGrid": true,
+		"showGlyphs": true,
+		"showQuickUse": true,
+		"showQuickUse2": true,
+		"showSVGs": true,
+		"search": ""
+	}
+}

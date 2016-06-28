@@ -1,0 +1,24 @@
+find your icons in 
+https://icomoon.io/app/#/select
+
+
+After you have your font, it’s time to add to your project. Add the font into {touch_app}/resources/fonts/, and add this path to your resources/sass/config.rb:
+
+# Compass configurations
+sass_path = dir
+css_path = File.join(dir, "..", "css")
+fonts_path = File.join(dir, "..", "fonts")
+
+ It’s also good to copy the pictos and  ios7  folder from touch/resources/themes/fonts to this new fonts/ directory.
+
+For the last step you just need to include the font and use the icons on your app.scss, like this:
+
+@include icon-font('icomoon', inline-font-files(
+  'icomoon.woff', woff,
+  'icomoon.ttf', truetype,
+  'icomoon.svg', svg
+));
+ 
+@include icon("menu"  , "\e602","icomoon");
+@include icon("list", "\e600","icomoon");
+@include icon("list2"  , "\e601","icomoon");

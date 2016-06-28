@@ -1,0 +1,69 @@
+[class^="icon-"], [class*=" icon-"] {
+	display: inline-block;
+	color: #000000;
+	fill: currentColor;
+}
+.icon-home {
+	width: 32px;
+	height: 32px;
+}
+.icon-notebook {
+	width: 32px;
+	height: 32px;
+}
+.icon-location {
+	width: 32px;
+	height: 32px;
+}
+.icon-map {
+	width: 32px;
+	height: 32px;
+}
+.icon-history {
+	width: 32px;
+	height: 32px;
+}
+.icon-calendar {
+	width: 32px;
+	height: 32px;
+}
+.icon-spinner {
+	width: 32px;
+	height: 32px;
+}
+.icon-search {
+	width: 32px;
+	height: 32px;
+}
+.icon-fire {
+	width: 32px;
+	height: 32px;
+}
+.icon-download {
+	width: 32px;
+	height: 32px;
+}
+.icon-globe {
+	width: 32px;
+	height: 32px;
+}
+.icon-info {
+	width: 32px;
+	height: 32px;
+}
+.icon-mail {
+	width: 32px;
+	height: 32px;
+}
+.icon-instagram {
+	width: 32px;
+	height: 32px;
+}
+.icon-feed {
+	width: 32px;
+	height: 32px;
+}
+.icon-youtube {
+	width: 32px;
+	height: 32px;
+}

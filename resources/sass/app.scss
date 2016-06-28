@@ -1,0 +1,195 @@
+// The following two lines import the default Sencha Touch theme. If you are building
+// a new theme, remove them and the add your own CSS on top of the base CSS (which
+// is already included in your app.json file).
+@import 'sencha-touch/default';
+@import 'sencha-touch/default/all';
+
+@include icon-font('icomoon', inline-font-files(
+  'icomoon.woff', woff,
+  'icomoon.ttf', truetype,
+  'icomoon.svg', svg
+));
+ 
+@include icon("menu"  , "\e602","icomoon");
+@include icon("list", "\e600","icomoon");
+@include icon("list2"  , "\e601","icomoon");
+
+
+myList {
+}
+.myList .x-list-item {
+    position:relative;
+    color:#333;
+    padding:0em 0em;
+    min-height:2.1em;
+    display:-webkit-box;
+    display:box;
+    border-top:1px solid #c8c8c8
+ 
+}
+.myList .x-list-item .brands-row-spon {
+    width: 100%;
+    background-color: #D8D8D8;
+    padding:0.5em 0.8em;
+    min-height:2.6em;
+}
+.myList .x-list-item .brands-row {
+    width: 100%;
+    min-height:2.6em;
+    padding:0.5em 0.8em;
+}
+
+/* line 230, ../sass/_shared.scss */
+.day {
+  display: inline-block;
+  background-color: #0B649C;
+  color: rgba(255, 255, 255, 0.8);
+  //text-shadow: #fff 0 1px 0;
+  width: 5.8em;
+  text-align: center;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 4px #888888;
+  box-shadow: inset 0 0 4px #888888;
+  padding: 0.1em;
+  
+}
+/* line 242, ../sass/_shared.scss */
+.x-android .day {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 246, ../sass/_shared.scss */
+.date {
+  font-size: .8em;
+}
+
+.photo {
+  //float: left; 
+  margin: 10px; 
+  box-shadow: #999 0px 0px 6px 2px; 
+  border: 1px solid #888; 
+  //overflow: hidden;
+}
+
+/* 
+    Document   : gallery
+    Created on : Apr 18, 2013, 8:08:10 PM
+    Author     : SWARNENDU
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body,
+.gallery.x-container{
+        //background: url(http://freeiphonehdwallpaper.com/wp-content/uploads/blue-texture-iphone-hd-wallpaper-320x480.jpg);
+        background-size: 100% 100%;
+}
+
+/************************* Gallery *******************************/
+
+#photos {
+        /* Prevent vertical gaps */
+        line-height: 0;
+        -webkit-column-count: 3;
+        -webkit-column-gap: 0px;
+        margin: 10px 10px 0 15px;
+
+}
+#photos img {
+        width: 95% !important;
+        height: auto !important;
+        margin: 0px 0px 10px 0px;
+        border: 2px solid rgba(0,0,0,0.4);
+        border-radius: 5px;
+        padding: 5px;
+        background: rgba(0,0,0,0.5);
+}
+
+/************************* Gallery ENDS *******************************/
+
+
+/*********************** Gallery Carousel *************************/
+
+
+.gallery-carousel {
+        z-index: 20;
+        background: rgba(0,0,0,0.7);
+}
+
+.gallery-item{
+        max-width: 100%;
+        /*        margin-left: 1%;*/
+}
+
+.gallery-carousel .x-carousel-item .x-innerhtml{
+        height: 100% !important;
+        display: -webkit-box;
+        -webkit-box-align: center;
+        -webkit-box-pack: center;
+}
+
+.gallery-carousel .x-carousel-indicator-dark span {
+        background-color: rgba(255,255,255,0.3) !important;
+}
+
+.gallery-carousel .x-carousel-indicator-dark span.x-carousel-indicator-active {
+        background-color: rgba(255,255,255,1) !important;
+}
+
+.gallery-carousel .close-gallery{
+        position: absolute;
+        -webkit-mask-image: url(../images/close.png);
+        -webkit-mask-repeat: no-repeat;
+        background: #fff;
+        -webkit-mask-size: 32px;
+        height: 32px;
+        width: 32px;
+        margin: 20px;
+        right: 0;
+}
+
+.gallery-carousel .x-carousel-item .x-innerhtml{
+        text-align : center;
+}
+
+.gallery-carousel .item{
+    max-width : 100%;
+    max-height : 100%;
+}
+
+.gallery-carousel .nav{
+    -webkit-mask: url(../images/arrow.png) no-repeat;
+    background: #fff;
+    min-width: 16px;
+    min-height: 16px;       
+    -webkit-mask-position: 12px 6px;
+}
+
+.gallery-carousel .gallery-left{
+    -webkit-transform: rotate(180deg);
+}
+
+.gallery-carousel .gallery-right{
+
+}
+
+.gallery-carousel .gallery-bottombar .x-title{
+    font-size: 14px !important;
+    color : #fff;
+}
+
+
+/*********************** Gallery Carousel ENDS *************************/
+
+// Examples of using the icon mixin:
+// @include icon('user');
